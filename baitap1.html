@@ -1,100 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
             font-family: Arial, Helvetica, sans-serif;
         }
-        .header{
-            width:100%;
-            height:50px;
-            background-color:#222;
-        }
-        
-        .nav{
-            width:90%;
-            float:left;
-        }
-        .nav-item{
-            width:10%;
-            float:left;
-            color:#f1f1f1;
-            line-height:50px;
-            font-size:26px;
-            text-align:center;
-        }
-        
-        .nav-item:hover{
-            color:white;
-            background-color:black;
-        }
-        .login{
-            width:10%;
-            color:#f1f1f1;
-            font-size:30px;
-            float:left;
-            line-height:50px;
-        }
-        .main{
-            width:100%;
-            height:600px;
-            background-color:#f1f1f1;
-        }
-        .left,.right{
-            width:20%;
-            height:600px;
-            background-color:#f1f1f1;
-            float:left;
-        }
-        .center{
-            width:60%;
-            height:600px;
-            background-color:white;
-            float:left;
-            padding:40px 30px;
+
+        .header {
+            width: 100%;
+            height: 50px;
+            background-color: #222;
         }
 
-        .right1,.right2{
-            margin:20px;
-            border:1px solid #333;
+        .nav {
+            width: 90%;
+            float: left;
+        }
+
+        .nav-item {
+            width: 10%;
+            float: left;
+            color: #f1f1f1;
+            line-height: 50px;
+            font-size: 26px;
             text-align: center;
-            padding:30px 40px;
+        }
+
+        .nav-item:hover {
+            color: white;
+            background-color: black;
+        }
+
+        .login {
+            width: 10%;
+            color: #f1f1f1;
+            font-size: 30px;
+            float: left;
+            line-height: 50px;
+        }
+
+        .main {
+            width: 100%;
+            height: 600px;
+            background-color: #f1f1f1;
+        }
+
+        .left,
+        .right {
+            width: 20%;
+            height: 600px;
+            background-color: #f1f1f1;
+            float: left;
+        }
+
+        .center {
+            width: 60%;
+            height: 600px;
+            background-color: white;
+            float: left;
+            padding: 40px 30px;
+        }
+
+        .right1,
+        .right2 {
+            margin: 20px;
+            border: 1px solid #333;
+            text-align: center;
+            padding: 30px 40px;
             border-radius: 10px;
         }
 
-        .left-item a{
-            text-decoration:none;
-            line-height:40px;
-            padding-left:150px;
-            color:rgb(6, 152, 201);
-            
+        .left-item a {
+            text-decoration: none;
+            line-height: 40px;
+            padding-left: 150px;
+            color: rgb(6, 152, 201);
+
         }
 
-        p{
-            padding-top:15px;
+        p {
+            padding-top: 15px;
         }
 
-        .footer{
-            width:100%;
-            height:50px;
-            background-color:#333;
-            text-align:center;
-            line-height:50px;
-            color:white;
+        .footer {
+            width: 100%;
+            height: 50px;
+            background-color: #333;
+            text-align: center;
+            line-height: 50px;
+            color: white;
         }
+
         @media only screen and (max-width: 500px) {
 
+            .left,
+            .center,
+            .right {
+                width: 100%;
+            }
+
         }
-            
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
@@ -112,14 +128,20 @@
                 <div class="left-item" style="margin-top:30px;"><a href="">Link1</a></div>
                 <div class="left-item"><a href="">Link2</a></div>
                 <div class="left-item"><a href="">Link3</a></div>
-                
+
             </div>
             <div class="center">
                 <h1 style="font-size:50px;">Welcome</h1>
-                <p>Lý Thường Kiệt (chữ Hán: 李常傑; 1019 – 1105) là một nhà quân sự, nhà chính trị cũng như hoạn quan rất nổi tiếng vào thời nhà Lý nước Đại Việt. Ông làm quan qua 3 triều Lý Thái Tông, Lý Thánh Tông, Lý Nhân Tông và đạt được nhiều thành tựu to lớn, khiến ông trở thành một trong hai danh tướng vĩ đại nhất nhà Lý, bên cạnh Lê Phụng Hiểu.[1]
+                <p>Lý Thường Kiệt (chữ Hán: 李常傑; 1019 – 1105) là một nhà quân sự, nhà chính trị cũng như hoạn quan rất
+                    nổi tiếng vào thời nhà Lý nước Đại Việt. Ông làm quan qua 3 triều Lý Thái Tông, Lý Thánh Tông, Lý
+                    Nhân Tông và đạt được nhiều thành tựu to lớn, khiến ông trở thành một trong hai danh tướng vĩ đại
+                    nhất nhà Lý, bên cạnh Lê Phụng Hiểu.[1]
 
-                    Trong lịch sử Việt Nam, ông nổi bật với việc chinh phạt Chiêm Thành (1069), đánh phá 3 châu Khâm, Ung, Liêm nước Tống (1075–1076), rồi đánh bại cuộc xâm lược Đại Việt của quân Tống do Quách Quỳ, Triệu Tiết chỉ huy. Đặc biệt, trận chiến ở ba châu Khâm, Ung, Liêm đã khiến tên tuổi của ông vang dội ra khỏi Đại Việt và được biết đến ở đất Tống.</p>
-                    <hr style="margin:30px 10px;">
+                    Trong lịch sử Việt Nam, ông nổi bật với việc chinh phạt Chiêm Thành (1069), đánh phá 3 châu Khâm,
+                    Ung, Liêm nước Tống (1075–1076), rồi đánh bại cuộc xâm lược Đại Việt của quân Tống do Quách Quỳ,
+                    Triệu Tiết chỉ huy. Đặc biệt, trận chiến ở ba châu Khâm, Ung, Liêm đã khiến tên tuổi của ông vang
+                    dội ra khỏi Đại Việt và được biết đến ở đất Tống.</p>
+                <hr style="margin:30px 10px;">
                 <h2>Test</h2>
                 <p>Lorem upsum</p>
             </div>
@@ -131,4 +153,5 @@
         <div class="footer">Footer</div>
     </div>
 </body>
+
 </html>
